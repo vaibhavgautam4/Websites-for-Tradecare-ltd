@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #070b3a;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container h2{
+    color: #e33058;
+    font-size: 23px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.container h1 span{
+    font-size: 23px;
+    text-align: center;
+    color: #cacaff;
+    padding: 0px 0;
+}
+
+.row{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    grid-gap: 75px;
+}
+
+.row-col{
+    background: #cacaff;
+    padding: 5% 10%;
+    border-radius: 10px;
+    color: #070b3a;
+    text-align: center;
+}
+
+.row-col h4{
+    font-size: 22px;
+}
+
+.row-col h3{
+    font-size: 20px;
+    margin: 15px 0 30px;
+}
+
+.row-col img{
+    width: 80%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+
+.row-col ul{
+    font-weight: bold;
+    text-align: left;
+    margin: 15px 0;
+    color: #070b3a;
+    list-style: none;
+}
+
+.row-col ul li{
+    margin: 10px 0;
+}
+
+.row-col ul li::before{
+    content: '\2022';
+    color: #e33058;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.row-col button{
+    width: 100%;
+    background: transparent;
+    color: #070b3a;
+    padding: 14px 0;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #e33058;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.row-col button:hover{
+    background: #e33058;
+    color: #cacaff;
+}
+
